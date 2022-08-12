@@ -20,7 +20,8 @@ class App extends React.Component {
         },
         params: {
           query: term,
-          per_page: 20
+          per_page: 20,
+          order_by: 'latest'
         }
       }
     );
